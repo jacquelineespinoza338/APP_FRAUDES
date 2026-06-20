@@ -1,1 +1,89 @@
+<!DOCTYPE html>
 
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Detector de Fraudes Bancarios</title>
+
+<link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<h1>🏦 Detector de Fraudes Bancarios</h1>
+
+<form method="POST">
+
+<label>Cliente</label>
+
+<input type="text" name="cliente" required>
+
+<label>Monto</label>
+
+<input type="number" name="monto" required>
+
+<label>País</label>
+
+<select name="pais">
+
+<option>México</option>
+
+<option>Estados Unidos</option>
+
+<option>Canadá</option>
+
+<option>España</option>
+
+<option>Rusia</option>
+
+<option>Nigeria</option>
+
+</select>
+
+<label>Hora</label>
+
+<input type="number" name="hora" min="0" max="23" required>
+
+<label>Transacciones del día</label>
+
+<input type="number" name="transacciones_dia" required>
+
+<button type="submit">
+
+Analizar
+
+</button>
+
+</form>
+
+{% if resultado %}
+
+<h2>
+
+{{resultado}}
+
+</h2>
+
+{% endif %}
+
+<a href="/historial">
+
+<button>
+
+Ver Historial
+
+</button>
+
+</a>
+
+</div>
+
+</body>
+
+</html>
