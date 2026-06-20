@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Historial</title>
+
+<link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<h1>Historial de Transacciones</h1>
+
+<table>
+
+<tr>
+
+<th>Fecha</th>
+
+<th>Cliente</th>
+
+<th>Monto</th>
+
+<th>País</th>
+
+<th>Hora</th>
+
+<th>Transacciones</th>
+
+<th>Resultado</th>
+
+</tr>
+
+{% for x in datos %}
+
+<tr>
+
+<td>{{x.fecha}}</td>
+
+<td>{{x.cliente}}</td>
+
+<td>{{x.monto}}</td>
+
+<td>{{x.pais}}</td>
+
+<td>{{x.hora}}</td>
+
+<td>{{x.transacciones}}</td>
+
+<td>{{x.resultado}}</td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+
+<br>
+
+<a href="/">
+
+<button>
+
+Regresar
+
+</button>
+
+</a>
+
+</div>
+
+</body>
+
+</html>
