@@ -1,0 +1,227 @@
+[
+    {
+        "id": 1,
+        "cliente": "Juan Pérez",
+        "monto": 450,
+        "pais": "México",
+        "hora": 10,
+        "transacciones_dia": 2,
+        "fraude": 0
+    },
+    {
+        "id": 2,
+        "cliente": "María López",
+        "monto": 35000,
+        "pais": "Rusia",
+        "hora": 2,
+        "transacciones_dia": 12,
+        "fraude": 1
+    },
+    {
+        "id": 3,
+        "cliente": "Carlos Ruiz",
+        "monto": 1200,
+        "pais": "México",
+        "hora": 14,
+        "transacciones_dia": 1,
+        "fraude": 0
+    },
+    {
+        "id": 4,
+        "cliente": "Ana Torres",
+        "monto": 50000,
+        "pais": "Nigeria",
+        "hora": 1,
+        "transacciones_dia": 18,
+        "fraude": 1
+    },
+    {
+        "id": 5,
+        "cliente": "Luis Gómez",
+        "monto": 800,
+        "pais": "México",
+        "hora": 11,
+        "transacciones_dia": 2,
+        "fraude": 0
+    },
+    {
+        "id": 6,
+        "cliente": "Patricia Díaz",
+        "monto": 7000,
+        "pais": "Estados Unidos",
+        "hora": 13,
+        "transacciones_dia": 3,
+        "fraude": 0
+    },
+    {
+        "id": 7,
+        "cliente": "José Hernández",
+        "monto": 42000,
+        "pais": "Nigeria",
+        "hora": 3,
+        "transacciones_dia": 20,
+        "fraude": 1
+    },
+    {
+        "id": 8,
+        "cliente": "Laura Sánchez",
+        "monto": 1500,
+        "pais": "México",
+        "hora": 16,
+        "transacciones_dia": 2,
+        "fraude": 0
+    },
+    {
+        "id": 9,
+        "cliente": "Pedro Ramírez",
+        "monto": 28000,
+        "pais": "Rusia",
+        "hora": 4,
+        "transacciones_dia": 14,
+        "fraude": 1
+    },
+    {
+        "id": 10,
+        "cliente": "Daniela Cruz",
+        "monto": 650,
+        "pais": "México",
+        "hora": 9,
+        "transacciones_dia": 1,
+        "fraude": 0
+    },
+    {
+        "id": 11,
+        "cliente": "Miguel Castro",
+        "monto": 950,
+        "pais": "Canadá",
+        "hora": 15,
+        "transacciones_dia": 2,
+        "fraude": 0
+    },
+    {
+        "id": 12,
+        "cliente": "Fernanda Ortiz",
+        "monto": 47000,
+        "pais": "Nigeria",
+        "hora": 2,
+        "transacciones_dia": 16,
+        "fraude": 1
+    },
+    {
+        "id": 13,
+        "cliente": "Ricardo Vega",
+        "monto": 1300,
+        "pais": "México",
+        "hora": 12,
+        "transacciones_dia": 2,
+        "fraude": 0
+    },
+    {
+        "id": 14,
+        "cliente": "Elena Morales",
+        "monto": 9000,
+        "pais": "España",
+        "hora": 17,
+        "transacciones_dia": 3,
+        "fraude": 0
+    },
+    {
+        "id": 15,
+        "cliente": "Jorge Salinas",
+        "monto": 39000,
+        "pais": "Rusia",
+        "hora": 1,
+        "transacciones_dia": 15,
+        "fraude": 1
+    },
+    {
+        "id": 16,
+        "cliente": "Sofía Mendoza",
+        "monto": 750,
+        "pais": "México",
+        "hora": 10,
+        "transacciones_dia": 1,
+        "fraude": 0
+    },
+    {
+        "id": 17,
+        "cliente": "Roberto Flores",
+        "monto": 2100,
+        "pais": "Estados Unidos",
+        "hora": 18,
+        "transacciones_dia": 2,
+        "fraude": 0
+    },
+    {
+        "id": 18,
+        "cliente": "Carmen Silva",
+        "monto": 52000,
+        "pais": "Nigeria",
+        "hora": 3,
+        "transacciones_dia": 19,
+        "fraude": 1
+    },
+    {
+        "id": 19,
+        "cliente": "Alejandro León",
+        "monto": 980,
+        "pais": "México",
+        "hora": 8,
+        "transacciones_dia": 1,
+        "fraude": 0
+    },
+    {
+        "id": 20,
+        "cliente": "Gabriela Núñez",
+        "monto": 6000,
+        "pais": "Canadá",
+        "hora": 14,
+        "transacciones_dia": 2,
+        "fraude": 0
+    },
+    {
+        "id": 21,
+        "cliente": "Eduardo Jiménez",
+        "monto": 48000,
+        "pais": "Rusia",
+        "hora": 2,
+        "transacciones_dia": 17,
+        "fraude": 1
+    },
+    {
+        "id": 22,
+        "cliente": "Verónica Ríos",
+        "monto": 1250,
+        "pais": "México",
+        "hora": 13,
+        "transacciones_dia": 2,
+        "fraude": 0
+    },
+    {
+        "id": 23,
+        "cliente": "Francisco Lara",
+        "monto": 3000,
+        "pais": "España",
+        "hora": 19,
+        "transacciones_dia": 3,
+        "fraude": 0
+    },
+    {
+        "id": 24,
+        "cliente": "Isabel Campos",
+        "monto": 56000,
+        "pais": "Nigeria",
+        "hora": 1,
+        "transacciones_dia": 21,
+        "fraude": 1
+    },
+    {
+        "id": 25,
+        "cliente": "Hugo Navarro",
+        "monto": 850,
+        "pais": "México",
+        "hora": 11,
+        "transacciones_dia": 1,
+        "fraude": 0
+    }
+]
